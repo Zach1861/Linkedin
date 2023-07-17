@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(223, 221, 217);
+    font-family: sans-serif;
+}
+
+.logo{
+    margin: 0 285px;
+}
+.contain {
+    /* text-align: center; */
+    margin-top: 2rem;
+}
+.make{
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.form{
+    border: 2px solid white;
+    padding: 20 10 20 10;
+    border-radius: 10px;
+    height: 67vh;
+    width: 350px;
+    margin: auto;
+    background-color: white;
+}
+.contain input{
+    width: 100%;
+    height: 4vh;
+    /* margin-top: 2rem; */
+}
+.contain p{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.input {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+}
+.email {
+    margin-bottom: 10px;
+}
+.user_agreement {
+    font-size: 10px;
+}
+#email-input {
+    width: 340px;
+    height: 48px;
+    position: relative;
+    border: 1px solid black !important;
+    border-radius: 4px;
+}
+ #show {
+     text-decoration: none;
+     position: absolute;
+     left: 280px;
+     color: blue;
+     top: 10px;
+ }
+ .or span {
+     position: relative;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0 5px;
+     background-color: white;
+     left: 10rem;
+     /* text-align: center; */
+ }
+  .or span::before {
+      content: '';
+      position: absolute;
+      width: 150px;
+      height: 1px;
+      left: -5em;
+      background-color: #000;
+      top: 50%;
+      transform: translateX(-50%);
+      /* z-index: -1; */
+  }
+  .or1{
+    content: '';
+        position: absolute;
+        width: 130px;
+        height: 1px;
+        right: 34em;
+        background-color: #000;
+        top: 58.5%;
+        transform: translateX(-50%);
+  }
+.user_agreement p{
+    font-size: 12px;
+}
+.button button{
+    width: 19em;
+    border-radius: 2em;
+}
+.button11 img {
+    /* max-height: 1rem; */
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    align-items: center;
+    /* background-color: white; */
+    /* padding: 20px; */
+    /* margin-right: 39px; */
+
+}
+
+.button11 {
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black !important;
+    /* align-items: center; */
+    border-radius: 30px;
+    width: 86%;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 2em;
+    margin-top: 30px;
+}
+
+.button11:hover {
+    background-color: rgba(235, 230, 230, 0.686);
+}
+
+#policy {
+    text-align: center;
+}
+
+#policy_text {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+#policy_text a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+}
+
+#agree {
+    align-items: center;
+    text-align: center;
+}
+
+#agree button {
+    width: 100%;
+}
